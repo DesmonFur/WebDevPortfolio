@@ -44,19 +44,16 @@ class Main extends React.Component {
           </ProjectPic>
 
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Xpense is a full-stack-application crated using React.js, node.js,
+            massive and express including authentication. Additional technologies include redux,
+            react-redux, react-number-format,react-router-dom,sweetalert2,
+            axios, and styled using styled-components and css. Twilio was used
+            for support and contacting me. On the backend I used sessions
+            including a cookie so that a user info could stay on refresh and if
+            they revisted without having to login. I searched up a few sites and decided to use the design of
+            youNeedABudget.com. My site allows users to create a budget or
+            multiple budgets to manage there one to however many incomes they
+            have.
           </p>
 
           {close}
@@ -75,7 +72,7 @@ class Main extends React.Component {
           </span>
           <p>
             I am a former gas station, cold room employee, who decided he wanted
-            to be a web developer. I took one class in python in high school and
+            to be a web developer. I took a class on python in high school and
             decided that I would love to become a programmer in the future. I
             went through some struggles before furthering my programming
             knowledge. Stuck with years of laziness syndrome, I quickly realized
@@ -87,13 +84,10 @@ class Main extends React.Component {
             that I attempt. The future is what you do tomorrow, not what you do
             today.
           </p>
-          <a
-                href="www.linkedin.com/in/DesmonFur"
-                className="icon fa-linkedin"
-              >
-                <span className="label">Linkedin</span>
-              </a>
-          
+          <a href="www.linkedin.com/in/DesmonFur" className="icon fa-linkedin">
+            <span className="label">Linkedin</span>
+          </a>
+
           {close}
         </article>
 
