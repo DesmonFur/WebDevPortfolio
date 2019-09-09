@@ -84,10 +84,6 @@ class Main extends React.Component {
             that I attempt. The future is what you do tomorrow, not what you do
             today.
           </p>
-          <a href="www.linkedin.com/in/DesmonFur" className="icon fa-linkedin">
-            <span className="label">Linkedin</span>
-          </a>
-
           {close}
         </article>
 
