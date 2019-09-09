@@ -8,7 +8,7 @@
 [build]
   base    = "site"
   command = "make"
-  publish = "site/public"
+  publish = "site"
 
 # Production context: All deploys from the main
 # repository branch will inherit these settings.
