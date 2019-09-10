@@ -7,10 +7,8 @@ import git from '../images/git.jpg'
 import express from '../images/express.png'
 import jest from '../images/jest.png'
 import redux from '../images/redux.png'
-import sqltabs from '../images/sql_tabs.png'
-import postman from '../images/postman.png'
 import styled from 'styled-components'
-import ReactPlayer from 'react-player'
+
 
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
