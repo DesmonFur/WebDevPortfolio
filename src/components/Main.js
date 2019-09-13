@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-import demon from '../images/demon.mp4'
+import ded from '../images/ded.mp4'
 import styled from 'styled-components'
 import statics from '../images/statics.jpg'
 class Main extends React.Component {
@@ -37,7 +37,7 @@ class Main extends React.Component {
           <h2 className="major">Xpense</h2>
           <Project className="image main">
             {' '}
-            <ReactPlayer url={demon} playing controls />{' '}
+            <ReactPlayer url={ded} playing controls />{' '}
           </Project>
           <ProjectPic className="image main">
             <img src={statics} alt="Project-Login" />
