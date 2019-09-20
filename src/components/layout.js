@@ -48,6 +48,7 @@ const Layout = ({ children, location }) => {
             <html lang="en" />
           </Helmet>
           {content}
+          
         </>
       )}
     />

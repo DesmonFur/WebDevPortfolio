@@ -8,7 +8,22 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
+                <h1>Web Dev Portfolio</h1>
+                <ul className="icons">
+            <li>
+              <a
+                href="www.linkedin.com/in/DesmonFur"
+                className="icon fa-linkedin"
+              >
+                <span className="label">Linkedin</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/DesmonFur" className="icon fa-github">
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
                 {/* <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
                 for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> */}
             </div>
