@@ -34,7 +34,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <h2 className="major">Xpense</h2>
+          <h2 className="major">
+            <a href="https://xpense.org/#/">Xpense</a>
+          </h2>
           <Project className="image main">
             {' '}
             <ReactPlayer url={ded} playing controls />{' '}
@@ -45,15 +47,16 @@ class Main extends React.Component {
 
           <p>
             Xpense is a full-stack-application crated using React.js, node.js,
-            massive and express including authentication. Additional technologies include redux,
-            react-redux, react-number-format,react-router-dom,sweetalert2,
-            axios, and styled using styled-components and css. Twilio was used
-            for support and contacting me. On the backend I used sessions
-            including a cookie so that a user info could stay on refresh and if
-            they revisted without having to login. I searched up a few sites and decided to use the design of
-            youNeedABudget.com. My site allows users to create a budget or
-            multiple budgets to manage there one to however many incomes they
-            have.
+            massive and express including authentication. Additional
+            technologies include redux, react-redux,
+            react-number-format,react-router-dom,sweetalert2, axios, and styled
+            using styled-components and css. Twilio was used for support and
+            contacting me. On the backend I used sessions including a cookie so
+            that a user info could stay on refresh and if they revisted without
+            having to login. I searched up a few sites and decided to use the
+            design of youNeedABudget.com. My site allows users to create a
+            budget or multiple budgets to manage there one to however many
+            incomes they have.
           </p>
 
           {close}
