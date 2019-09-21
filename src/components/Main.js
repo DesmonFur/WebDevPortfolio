@@ -2,10 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { IoLogoLinkedin } from 'react-icons/io'
 import ReactPlayer from 'react-player'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import ded from '../images/ded.mp4'
+import headgames from '../images/headgames.mp4'
 import styled from 'styled-components'
 import statics from '../images/statics.jpg'
 class Main extends React.Component {
@@ -57,6 +56,39 @@ class Main extends React.Component {
             design of youNeedABudget.com. My site allows users to create a
             budget or multiple budgets to manage there one to however many
             incomes they have.
+          </p>
+
+          {close}
+        </article>
+        <article
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          {/* <h2 className="major">Projects</h2> */}
+          <h2 className="major">
+            <a href="https://head-games.org/#/">Head-Games</a>
+          </h2>
+          <Project className="image main">
+            {' '}
+            <ReactPlayer url={headgames} playing controls />{' '}
+          </Project>
+          <ProjectPic className="image main">
+            <img src={statics} alt="Project-Login" />
+          </ProjectPic>
+
+          <p>
+            Head-Games is a full-stack-application crated using React.js,
+            node.js, massive and express including authentication. It's a dating
+            app but with quizzes. It includes swiping, left for no, right for
+            yes, when swiping right a user will take a quiz chosen by the person
+            they swiped on. After the quiz is taken you will be sent back to the
+            home screen, you will not see users you already swiped on. You can
+            click your picture in the top right to see who swiped right, and
+            the people you swiped right on. When clicking on their photo, you can see their
+            bio and chat-icon for live-messaging using sockets.
           </p>
 
           {close}
