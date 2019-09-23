@@ -45,7 +45,7 @@ class Main extends React.Component {
           </ProjectPic>
 
           <p>
-            Xpense is a full-stack-application crated using React.js, node.js,
+            Xpense is a full-stack-application created using React.js, node.js,
             massive and express including authentication. Additional
             technologies include redux, react-redux,
             react-number-format,react-router-dom,sweetalert2, axios, and styled
@@ -80,7 +80,7 @@ class Main extends React.Component {
           </ProjectPic>
 
           <p>
-            Head-Games is a full-stack-application crated using React.js,
+            Head-Games is a full-stack-application created using React.js,
             node.js, massive and express including authentication. It's a dating
             app but with quizzes. It includes swiping, left for no, right for
             yes, when swiping right a user will take a quiz chosen by the person
