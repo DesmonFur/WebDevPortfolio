@@ -86,9 +86,9 @@ class Main extends React.Component {
             yes, when swiping right a user will take a quiz chosen by the person
             they swiped on. After the quiz is taken you will be sent back to the
             home screen, you will not see users you already swiped on. You can
-            click your picture in the top right to see who swiped right, and
-            the people you swiped right on. When clicking on their photo, you can see their
-            bio and chat-icon for live-messaging using sockets.
+            click your picture in the top right to see who swiped right, and the
+            people you swiped right on. When clicking on their photo, you can
+            see their bio and chat-icon for live-messaging using sockets.
           </p>
 
           {close}
@@ -160,7 +160,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="www.linkedin.com/in/DesmonFur"
+                href="https://www.linkedin.com/in/DesmonFur"
                 className="icon fa-linkedin"
               >
                 <span className="label">Linkedin</span>

@@ -12,7 +12,7 @@ const Header = (props) => (
                 <ul className="icons">
             <li>
               <a
-                href="www.linkedin.com/in/DesmonFur"
+                href="https://www.linkedin.com/in/DesmonFur"
                 className="icon fa-linkedin"
               >
                 <span className="label">Linkedin</span>
