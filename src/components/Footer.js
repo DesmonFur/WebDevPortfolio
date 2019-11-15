@@ -15,34 +15,34 @@ const Footer = props => (
     <h1>Skills</h1>
 
     <FaNodeJs size={80} color={'#3C873A'} />
-    <SkillsList>Node.js</SkillsList>
+    <SkillsList></SkillsList>
     <FaReact size={80} color={'#61DBFB'} />
-    <SkillsList>React.js</SkillsList>
+    <SkillsList></SkillsList>
     <FaHtml5 color={'#F16529'} size={80} />
-    <SkillsList>Html5</SkillsList>
+    <SkillsList></SkillsList>
     <GoMarkGithub size={80} />
-    <SkillsList>Github</SkillsList>
+    <SkillsList></SkillsList>
     <FaCss3Alt color={'#2965f1'} size={80} />
-    <SkillsList>Css3</SkillsList>
+    <SkillsList></SkillsList>
     <IoLogoJavascript color={'#f7df1e'} size={80} />
-    <SkillsList>Javascript</SkillsList>
+    <SkillsList></SkillsList>
     <Image
       src="https://www.postgresql.org/media/img/about/press/elephant.png"
       alt="postgresIcon"
     />
-    <SkillsList>PostgreSql</SkillsList>
+    <SkillsList></SkillsList>
     <Image src={git} />
-    <SkillsList>Git</SkillsList>
+    <SkillsList></SkillsList>
     <Image src={express} />
-    <SkillsList>Express</SkillsList>
+    <SkillsList></SkillsList>
     <Image src={jest} />
-    <SkillsList>Jest</SkillsList>
+    <SkillsList></SkillsList>
     <Image src={redux} />
-    <SkillsList>Redux</SkillsList>
+    <SkillsList></SkillsList>
     <Image src="https://www.sqltabs.com/img/logo.png" />
-    <SkillsList>SqlTabs</SkillsList>
+    <SkillsList></SkillsList>
     <Image src="https://miro.medium.com/max/512/1*fVBL9mtLJmHIH6YpU7WvHQ.png" />
-    <SkillsList>Postman</SkillsList>
+    <SkillsList></SkillsList>
     {/* <p className="copyright">
       &copy; Gatsby Starter - Dimension. Design:{' '}
       <a href="https://html5up.net">HTML5 UP</a>. Built with:{' '}
@@ -58,6 +58,7 @@ const SkillsList = styled.span`
 
 const Image = styled.img`
   width: 70px;
+  margin-left:19px;
 `
 
 Footer.propTypes = {
